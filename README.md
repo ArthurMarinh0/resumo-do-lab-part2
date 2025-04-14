@@ -35,3 +35,26 @@ PaaS: ideal para desenvolvedores que querem criar e lançar aplicações sem ger
 SaaS: ótimo para uso direto de aplicativos como e-mails, editores de texto, CRM e outros sistemas prontos.
 
 Resumidamente, esses modelos mostram como a nuvem pode ser usada de formas diferentes, dependendo da necessidade de controle, praticidade e tipo de aplicação que se deseja utilizar. Se eu quiser mais liberdade, uso IaaS; se quiser focar no desenvolvimento, uso PaaS; e se quiser só usar um sistema pronto, uso SaaS.
+
+4 - Criando um Banco de Dados no Azure
+Aqui aprendi, na prática, como criar um banco de dados na nuvem usando o Microsoft Azure. Entendi que o Azure oferece serviços de banco de dados como parte do modelo PaaS, ou seja, não preciso me preocupar com a infraestrutura por trás.
+
+O processo de criação foi simples e envolveu os seguintes passos:
+Acessar o portal do Azure com minha conta.
+
+No menu de serviços, escolhi a opção “SQL Database”.
+
+Cliquei em “Criar” e preenchi as informações básicas, como:
+
+Nome do banco de dados.
+
+Nome do servidor (e criei um, caso não existisse).
+
+Grupo de recursos.
+
+Escolhi a camada de desempenho, dependendo da capacidade e custo desejado.
+
+Após a criação, o banco de dados ficou disponível, e eu pude usar o Query Editor do próprio Azure para executar comandos SQL.
+
+Com isso, entendi que é possível criar e gerenciar bancos de dados completos na nuvem, com alta disponibilidade, segurança e escalabilidade, sem precisar instalar nada no computador.
+
